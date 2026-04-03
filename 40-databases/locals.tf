@@ -10,5 +10,5 @@ locals {
     #mongodb security group id
     mongodb_sg_id = data.aws_ssm_parameter.mongodb_sg_id.value
     #redis security group id
-    # redis_sg_id = data.aws_ssm_parameter.redis_sg_id.value  
+    redis_sg_id = data.aws_ssm_parameter.redis_sg_id.value  
 }
